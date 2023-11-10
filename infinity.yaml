@@ -12,11 +12,11 @@ base:
       image-tag: latest
       bash: sleep infinity
 
-sleep40:
+sleep30:
   defines: runnable
   inherits: infinity/base
   metadata:
-    name: sleep 40s and exit
+    name: sleep 30s and exit
   containers:
     utils:
-      bash: sleep 40
+      bash: sleep 30
